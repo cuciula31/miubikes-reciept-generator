@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1300.0" style="-fx-background-color: #091212;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Regler">
+   <children>
+      <Text fill="WHITE" layoutX="1.0" layoutY="32.0" opacity="0.79" strokeType="OUTSIDE" strokeWidth="0.0" text="BIKES4YOU INVOICE GENERATOR">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <effect>
+            <DropShadow color="WHITE" height="29.72" radius="12.86" spread="0.43" width="23.72" />
+         </effect>
+      </Text>
+      <Pane fx:id="containerPane" layoutY="52.0" prefHeight="748.0" prefWidth="1301.0">
+         <children>
+            <Pane fx:id="fieldMenu" layoutX="10.0" layoutY="1000.0" prefHeight="748.0" prefWidth="1301.0">
+               <children>
+                  <Line endX="541.5" endY="452.0" fill="#ff000000" layoutX="-181.0" layoutY="304.0" startX="541.5" startY="-296.0">
+                     <effect>
+                        <DropShadow color="WHITE" height="63.07" offsetY="10.0" radius="33.06" spread="0.33" width="71.17" />
+                     </effect>
+                     <stroke>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="WHITE" />
+                              <Stop color="#ffffff00" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </stroke>
+                  </Line>
+                  <Line endX="541.5" endY="452.0" fill="#ff000000" layoutX="369.0" layoutY="304.0" startX="541.5" startY="-296.0">
+                     <effect>
+                        <DropShadow color="WHITE" height="63.07" offsetY="10.0" radius="33.06" spread="0.33" width="71.17" />
+                     </effect>
+                     <stroke>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="WHITE" />
+                              <Stop color="#ffffff00" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </stroke>
+                  </Line>
+                  <Line endX="171.0" endY="-235.16665649414062" fill="#ff000000" layoutX="-171.0" layoutY="299.0" startX="1472.0" startY="-235.16665649414062">
+                     <effect>
+                        <DropShadow color="WHITE" height="63.07" offsetY="10.0" radius="33.06" spread="0.33" width="71.17" />
+                     </effect>
+                     <stroke>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="WHITE" />
+                              <Stop color="#ffffff00" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </stroke>
+                  </Line>
+                  <Text fill="WHITE" layoutX="96.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CUMPĂRĂTOR">
+                     <font>
+                        <Font size="27.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="589.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRODUSE">
+                     <font>
+                        <Font size="27.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="1067.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LIVRARE">
+                     <font>
+                        <Font size="27.0" />
+                     </font>
+                  </Text>
+                  <GridPane layoutY="79.0" minWidth="-Infinity" prefHeight="682.0" prefWidth="358.0">
+                     <columnConstraints>
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <JFXTextField fx:id="buyerField" focusColor="WHITE" labelFloat="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="362.0" promptText="CUMPĂRĂTOR" style="-fx-fill: white; -fx-text-fill: white; -fx-prompt-text-fill: lightGray;" unFocusColor="WHITE" GridPane.columnIndex="1">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField fx:id="cuiField" focusColor="WHITE" labelFloat="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="362.0" promptText="CUI" style="-fx-fill: white; -fx-text-fill: white; -fx-prompt-text-fill: lightGray;" unFocusColor="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField fx:id="comField" focusColor="WHITE" labelFloat="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="362.0" promptText="NR. REG. COM." style="-fx-fill: white; -fx-text-fill: white; -fx-prompt-text-fill: lightGray;" unFocusColor="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField fx:id="headquarterField" focusColor="WHITE" labelFloat="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="362.0" promptText="SEDIU" style="-fx-fill: white; -fx-text-fill: white; -fx-prompt-text-fill: lightGray;" unFocusColor="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField fx:id="cityField" focusColor="WHITE" labelFloat="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="362.0" promptText="LOC/JUD" style="-fx-fill: white; -fx-text-fill: white; -fx-prompt-text-fill: lightGray;" unFocusColor="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField fx:id="bAField" focusColor="WHITE" labelFloat="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="362.0" promptText="CONT BANCAR" style="-fx-fill: white; -fx-text-fill: white; -fx-prompt-text-fill: lightGray;" unFocusColor="WHITE" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField fx:id="bankField" focusColor="WHITE" labelFloat="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="362.0" promptText="BANCA" style="-fx-fill: white; -fx-text-fill: white; -fx-prompt-text-fill: lightGray;" unFocusColor="WHITE" GridPane.columnIndex="8" GridPane.rowIndex="6">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </JFXTextField>
+                     </children>
+                  </GridPane>
+                  <JFXTextField fx:id="productField" focusColor="WHITE" labelFloat="true" layoutX="362.0" layoutY="97.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="242.0" promptText="PRODUS/SERVICIU" style="-fx-fill: white; -fx-text-fill: white; -fx-prompt-text-fill: lightGray;" unFocusColor="WHITE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXTextField fx:id="priceField" focusColor="WHITE" labelFloat="true" layoutX="605.0" layoutY="97.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="95.0" promptText="PREȚ" style="-fx-fill: white; -fx-text-fill: white; -fx-prompt-text-fill: lightGray;" unFocusColor="WHITE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXTextField fx:id="qtyField" focusColor="WHITE" labelFloat="true" layoutX="701.0" layoutY="97.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="95.0" promptText="CANT." style="-fx-fill: white; -fx-text-fill: white; -fx-prompt-text-fill: lightGray;" unFocusColor="WHITE">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXButton layoutX="796.0" layoutY="105.0" onMouseReleased="#addReleased" prefHeight="44.0" prefWidth="113.0" style="-fx-border-color: white;" text="ADĂUGARE" textFill="WHITE">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXListView fx:id="listView" layoutX="362.0" layoutY="149.0" prefHeight="480.0" prefWidth="547.0" style="-fx-background-color: #091212;" />
+                  <GridPane layoutX="916.0" layoutY="67.0" minWidth="-Infinity" prefHeight="589.0" prefWidth="358.0">
+                     <columnConstraints>
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="0.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <JFXTextField fx:id="delegateField" focusColor="WHITE" labelFloat="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="362.0" promptText="DELEGAT" style="-fx-fill: white; -fx-text-fill: white; -fx-prompt-text-fill: lightGray;" unFocusColor="WHITE" GridPane.columnIndex="1">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField fx:id="cIField" focusColor="WHITE" labelFloat="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="362.0" promptText="SERIE CI" style="-fx-fill: white; -fx-text-fill: white; -fx-prompt-text-fill: lightGray;" unFocusColor="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField fx:id="cINField" focusColor="WHITE" labelFloat="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="362.0" promptText="NUMĂR CI" style="-fx-fill: white; -fx-text-fill: white; -fx-prompt-text-fill: lightGray;" unFocusColor="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField fx:id="cICField" focusColor="WHITE" labelFloat="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="362.0" promptText="CI ELIBERAT DE" style="-fx-fill: white; -fx-text-fill: white; -fx-prompt-text-fill: lightGray;" unFocusColor="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField fx:id="vehicleField" focusColor="WHITE" labelFloat="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="362.0" promptText="VEHICUL" style="-fx-fill: white; -fx-text-fill: white; -fx-prompt-text-fill: lightGray;" unFocusColor="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField fx:id="licensePlateField" focusColor="WHITE" labelFloat="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="362.0" promptText="NUMĂR ÎNMATRICULARE" style="-fx-fill: white; -fx-text-fill: white; -fx-prompt-text-fill: lightGray;" unFocusColor="WHITE" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </JFXTextField>
+                     </children>
+                  </GridPane>
+                  <JFXButton fx:id="generateButton" layoutX="911.0" layoutY="640.0" onMouseReleased="#generateReleased" prefHeight="87.0" prefWidth="384.0" text="GENERARE" textFill="WHITE">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="362.0" layoutY="628.0" prefHeight="107.0" prefWidth="547.0" style="-fx-border-color: white;" text="ELIMINARE" textFill="RED">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </Pane>
+            <Pane fx:id="principalMenu" layoutY="-10.0" prefHeight="748.0" prefWidth="1301.0">
+               <children>
+                  <Line endX="30.166671752929688" endY="-140.0" layoutX="188.0" layoutY="419.0" opacity="0.79" startX="-129.8333282470703" startY="88.0" stroke="WHITE">
+                     <effect>
+                        <DropShadow color="WHITE" height="47.69" radius="34.4625" spread="0.26" width="92.16" />
+                     </effect>
+                  </Line>
+                  <Line endX="7.5" endY="285.66668701171875" layoutX="349.0" layoutY="191.0" opacity="0.79" startX="-129.8333282470703" startY="88.0">
+                     <effect>
+                        <DropShadow color="WHITE" height="47.69" radius="34.4625" spread="0.26" width="92.16" />
+                     </effect>
+                     <stroke>
+                        <LinearGradient cycleMethod="REFLECT" endX="1.0">
+                           <stops>
+                              <Stop color="WHITE" />
+                              <Stop color="#ffffff00" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </stroke>
+                  </Line>
+                  <Line endX="47.5" endY="158.33334350585938" layoutX="229.0" layoutY="201.0" opacity="0.79" startX="160.83334350585938" startY="-21.666671752929688" stroke="WHITE">
+                     <effect>
+                        <DropShadow color="WHITE" height="47.69" radius="34.4625" spread="0.26" width="92.16" />
+                     </effect>
+                  </Line>
+                  <Line endX="241.83331298828125" endY="126.33334350585938" layoutX="272.0" layoutY="217.0" opacity="0.79" startX="117.5" startY="-39.0">
+                     <effect>
+                        <DropShadow color="WHITE" height="47.69" radius="34.4625" spread="0.26" width="92.16" />
+                     </effect>
+                     <stroke>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="WHITE" />
+                              <Stop color="#ffffff00" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </stroke>
+                  </Line>
+                  <Text fill="WHITE" layoutX="41.0" layoutY="391.0" opacity="0.79" rotate="-53.1" strokeType="OUTSIDE" strokeWidth="0.0" text="BUN">
+                     <font>
+                        <Font size="71.0" />
+                     </font>
+                     <effect>
+                        <DropShadow color="WHITE" height="29.72" radius="12.86" spread="0.43" width="23.72" />
+                     </effect>
+                  </Text>
+                  <Text fill="WHITE" layoutX="239.0" layoutY="263.0" opacity="0.79" rotate="-56.3" strokeType="OUTSIDE" strokeWidth="0.0" text="VENIT">
+                     <font>
+                        <Font size="56.0" />
+                     </font>
+                     <effect>
+                        <DropShadow color="WHITE" height="29.72" radius="12.86" spread="0.43" width="23.72" />
+                     </effect>
+                  </Text>
+                  <GridPane layoutX="780.0" layoutY="199.0" vgap="30.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints maxHeight="93.66665649414062" minHeight="10.0" prefHeight="84.33331298828125" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="73.66668701171875" minHeight="10.0" prefHeight="73.66668701171875" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="73.66668701171875" minHeight="10.0" prefHeight="73.66668701171875" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <JFXButton onMouseReleased="#menuGenerateReleased" style="-fx-border-color: WHITE; -fx-border-width: 1; -fx-border-radius: 10;" text="GENERARE FACTURA" textFill="WHITE">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                           <effect>
+                              <DropShadow color="WHITE" radius="15.93" spread="0.15" width="44.72" />
+                           </effect>
+                        </JFXButton>
+                        <JFXButton prefHeight="79.0" prefWidth="383.0" style="-fx-border-color: WHITE; -fx-border-width: 1; -fx-border-radius: 10;" text="FIȘIER FACTURI" textFill="WHITE" GridPane.rowIndex="1">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                           <effect>
+                              <DropShadow color="WHITE" radius="15.93" spread="0.15" width="44.72" />
+                           </effect>
+                        </JFXButton>
+                        <JFXButton prefHeight="79.0" prefWidth="383.0" style="-fx-border-color: red; -fx-border-width: 1; -fx-border-radius: 10;" text="IEȘIRE" textFill="WHITE" GridPane.rowIndex="2">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                           <effect>
+                              <DropShadow color="WHITE" radius="15.93" spread="0.15" width="44.72" />
+                           </effect>
+                        </JFXButton>
+                     </children>
+                  </GridPane>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</Pane>
