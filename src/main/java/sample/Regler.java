@@ -6,10 +6,12 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import objekte.Produkt;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -62,7 +64,7 @@ public class Regler {
     @FXML
     private ListView<String> listView;
 
-    List<Produkt> produktList = Collections.emptyList();
+    private List<Produkt>  produktList= new ArrayList<>();
 
     @FXML
     private void initialize(){
@@ -73,6 +75,11 @@ public class Regler {
     private void menuGenerateReleased(){
         Übersetzungswechsel.translateYBack(principalMenu, 1000,400);
         Übersetzungswechsel.translateY(fieldMenu, -1000,400);
+    }
+
+    @FXML
+    private void exitReleased() {
+        System.exit(0);
     }
 
     @FXML

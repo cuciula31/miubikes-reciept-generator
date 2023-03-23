@@ -19,8 +19,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        final String FXML_PATH = "sample.fxml";
-        FXMLLoader loader = new FXMLLoader(getClass().getClassLoader().getResource(FXML_PATH));
+        final String FXML_PATH = "/sample.fxml";
+        FXMLLoader loader = new FXMLLoader(getClass().getResource(FXML_PATH));
         Parent root = loader.load();
 
         primaryStage.setTitle("Generator Facturi");

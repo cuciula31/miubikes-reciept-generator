@@ -3,6 +3,8 @@ package daten;
 import com.spire.doc.Document;
 import com.spire.doc.FileFormat;
 
+import com.spire.doc.Section;
+import com.spire.doc.Table;
 import objekte.Produkt;
 
 import java.time.LocalDate;
@@ -11,6 +13,8 @@ import java.util.List;
 public class WortImporteur {
 
     static Document dokumentieren = new Document();
+    static Section section;
+    static Table prTable;
 
 
     public static void dokumentLaden() {
@@ -19,12 +23,25 @@ public class WortImporteur {
         System.out.println(pfad.substring(1));
 
         dokumentieren.loadFromFile(pfad.substring(1));
+        section = dokumentieren.getSections().get(0);
+        System.out.println(pfad);
 //        ProduktDaten.produktdatenErsetzen(dokumentieren, new List<Produkt>());
+
+        for(Object t : section.getTables()){
+            Table table = (Table) t;
+            if (table.getTitle().equals("productsTable")) {
+                prTable = table;
+            }
+        }
+
 
     }
 
+
+
     public static void schreiben(){
         dokumentieren.saveToFile("invoices/invoice.pdf", FileFormat.PDF);
+
     }
 
 

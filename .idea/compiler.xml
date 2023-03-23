@@ -20,7 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="12">
-      <module name="miubikes-reciept-generator" target="8" />
+      <module name="miubikes-reciept-generator" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

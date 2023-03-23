@@ -310,7 +310,7 @@
                               <DropShadow color="WHITE" radius="15.93" spread="0.15" width="44.72" />
                            </effect>
                         </JFXButton>
-                        <JFXButton prefHeight="79.0" prefWidth="383.0" style="-fx-border-color: red; -fx-border-width: 1; -fx-border-radius: 10;" text="IEȘIRE" textFill="WHITE" GridPane.rowIndex="2">
+                        <JFXButton onMouseReleased="#exitReleased" prefHeight="79.0" prefWidth="383.0" style="-fx-border-color: red; -fx-border-width: 1; -fx-border-radius: 10;" text="IEȘIRE" textFill="WHITE" GridPane.rowIndex="2">
                            <font>
                               <Font size="36.0" />
                            </font>
